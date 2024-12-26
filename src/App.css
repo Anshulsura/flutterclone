@@ -1,0 +1,131 @@
+.mainHeader {
+  position: relative;
+}
+.toastRoom {
+  position: relative;
+  width: 100%;
+  z-index: 99;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nav_ {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 99 !important;
+  padding: 0 30px;
+  position: relative;
+  width: 100%;
+}
+.mainherotheme {
+  width: 100%;
+  height: 100vh;
+  background-color: #7fa6e9;
+  position: absolute;
+  z-index: 1;
+  top: 0;
+
+}
+
+.leftTheme {
+  width: 1000px;
+  height: 1600px;
+  background-color: #1d61ba;
+  rotate: -10deg;
+  position: absolute;
+  top: -30px;
+}
+.rightTheme {
+  width: 500px;
+  height: 1600px;
+  background-color: #4b8cb7;
+  rotate: 27deg;
+  position: absolute;
+  top: -262px;
+  right: -55px;
+  z-index: 3;
+}
+
+.heroBacktheme{
+    width: 100%;
+    height: 100vh;
+    /* background-color: rgb(29,97,186);4B8CB7 */
+  
+    background: linear-gradient(to left, #4B8CB7 40%,rgb(29,97,186) 60% );
+    position: absolute;
+    top: 100%;
+    z-index: 2;
+}
+
+
+
+.hoverItemNav {
+  &:hover {
+    background-color: rgba(255, 255, 255, 0.256);
+  }
+}
+
+.heroScreen {
+  width: 100%;
+  height: 200vh;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 70px;
+}
+
+.heroScreen h1{
+    position: absolute;
+    top: 20%;
+    font-size: 4rem;
+}
+
+.imgArea{
+    position: absolute;
+    z-index: 5;
+    width: 100%;
+    height: 120vh;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    transform: translateY(150px);
+}
+
+.leftImgArea{
+    margin-top: 120px;
+    width: 450px;
+    height: 50px;
+}
+.rightImgArea{
+    margin-top: 120px;
+    width: 450px;
+    height: 50px;
+}
+.toprightImg{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.imgBottomArea{
+    width: 100%;
+    height: auto;
+    margin-top: 15px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.secondimg{
+    position: relative;
+    top: 120px;
+    left: -14px;
+}
+.imgBottomArea img{
+    border-radius: 10px;
+}
+.imgArea img{
+
+}
